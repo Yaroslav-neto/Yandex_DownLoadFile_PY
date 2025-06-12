@@ -24,7 +24,7 @@ class YaUploader:
         resp2.raise_for_status()
         return resp2.status_code
 
-token = "y0__xDr66qvARjblgMgnKKmvhNaKkshgUskU8gPNyteT649dcY1GQ"
+token = ""
 
 if __name__ == '__main__':
     uploader = YaUploader(f"{token}")
